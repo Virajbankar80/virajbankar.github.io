@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viraj | Developer & Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .hero {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1e40af, #9333ea);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero img {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ffffff;
+        }
+
+
+        h1 {
+            font-size: 2.8rem;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #ffffff;
+            font-size: 1.5rem;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #ffd700;
+        }
+
+        .section {
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skill-item {
+            background: #1e293b;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .skill-item:hover {
+            background: #334155;
+            transform: translateY(-5px);
+        }
+
+        .projects {
+            text-align: left;
+        }
+
+        .project-card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            background: #334155;
+            transform: scale(1.02);
+        }
+
+        .academics {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .academic-item {
+            background: #1e293b;
+            padding: 15px;
+            width: 80%;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .academic-item:hover {
+            background: #334155;
+            transform: scale(1.05);
+        }
+
+        /* .download-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #00b4d8, #90e0ef);
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        } */
+
+        .download-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #1e293b;
+            /* Warmer gradient */
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+            margin-top: 30px;
+            /* Adjusted margin */
+        }
+
+
+
+        .contact {
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact input,
+        .contact textarea {
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        .contact button {
+            padding: 10px;
+            background: #38bdf8;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .contact button:hover {
+            background: #1e40af;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero">
+            <img src="photo.jpg" alt="Viraj">
+            <h1>I'm Viraj</h1>
+            <p>SQL Developer | AI Enthusiast | Passionate Data Analyst</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Viraj Bankar, a passionate SQL Developer, AI Enthusiast, and Data Analyst<br>currently pursuing a B.Tech in Computer Science with a focus on Data Science at MIT<br>Academy of Engineering, Alandi, Pune.
+
+                <br>I specialize in analyzing data, writing efficient queries, and exploring intelligent systems<br>that solve real-world problems. My goal is to build data-driven solutions that make an<br>impact through clarity, precision, and innovation.</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill-item">HTML & CSS</div>
+                <div class="skill-item">C Programming</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Tableau</div>
+                <div class="skill-item">Orange</div>
+                <div class="skill-item">OlapCube</div>
+            </div>
+        </div>
+
+        <div class="section projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>📱 Smart Portfolio</h3>
+                <p>A modern personal website showcasing skills, projects, and contact details.</p>
+            </div>
+            <div class="project-card">
+                <h3>🛒 E-commerce Dashboard</h3>
+                <p>Developed a dashboard for tracking sales, analytics, and customer trends.</p>
+            </div>
+            <div class="project-card">
+                <h3>🎙️ Voice To Text Converter Using AWS</h3>
+                <p>Built a real-time voice transcription tool using AWS services for accurate speech-to-text conversion.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Academics</h2>
+            <div class="academics">
+                <div class="academic-item"> 10th Marks: 78.80%</div>
+                <div class="academic-item"> 12th Marks: 76.50%</div>
+                <div class="academic-item"> CET Score: 94.98%ile</div>
+            </div>
+        </div>
+
+        <a href="#" download="" class="download-btn">Download CV</a>
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
